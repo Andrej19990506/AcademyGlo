@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+.container{
+    max-width: 1189px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.search-form{
+    border-radius: 10px;
+    margin-left: 70px;
+    background-color: #EEEEEEB5;
+    display: flex;
+    max-width: 620px;
+    height: 49px;
+    flex-grow: 1;
+    position: relative;
+
+}
+.search-input{
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 20px 13px;
+    outline: none;
+}
+:hover.search-input{
+    border: solid 2px #F47322;
+}
+.searche-button{
+ background-color: transparent;
+ border: none;
+ position: absolute;
+ right: 0;
+ top: 0;
+ height: 100%;
+ padding: 13px 26px;
+ cursor: pointer;
+ fill: black ;
+}
+
+.auth{
+    margin-left: auto;
+    background: #EBEBEB;
+    border-radius: 50px;
+    width: 99px;
+    height: 49px;
+    padding: 16px 29px;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+.card{
+    position: relative;
+    width: 49px;
+    height: 49px;
+    background-color: #F66A15;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.counter{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #FFAF19;
+    display: block;
+    color:black;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 8px;
+    line-height: 9px;
+}
